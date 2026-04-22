@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobby</title>
+    <script src="../env.js"></script>
+    <script src="../header/js/header.js"></script>
+    <script src="../lobby/js/lobby.js"></script>
+    <link rel="stylesheet" href="../header/css/header.css">
+    <link rel="stylesheet" href="./css/lobby.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Lobby</h1>
+        <div class="container">
+            <div class="preferences">
+                <div class="preferencesContainer">
+                    <div class="row">
+                        <label for="playerPreference">Max players:</label>
+                        <input type="number" name="playerPreference" id="playerPreference" value="2" min="2" max="5">
+                    </div>
+                    <div class="row">
+                        <label for="aiPlayerPreference">Max AI players:</label>
+                        <input type="number" name="aiPlayerPreference" id="aiPlayerPreference" value="0" min="0" max="4">
+                    </div>
+                </div>
+            </div>
+            <div class="tables">
+                <div class = "block table" data-table-id="1">
+                    <p>Table ID: 1234</p>
+                    <button>Copy full table id</button>
+                    <div class="playerList" data-table-id="1">
+                        <div class="player filled" data-user-id="1">Sharky</div>
+                        <div class="player empty">empty</div>
+                        <div class="player empty">empty</div>
+                        <div class="player AI">AI Dusty</div>
+                        <div class="player blocked">no player</div>
+                    </div>
+                    <button>join game</button>
+                </div>
+                <div class = "block table">
+
+                </div>
+                <div class = "block table">
+
+                </div>
+                <div class = "block table">
+
+                </div>
+                <div class = "block table">
+
+                </div>
+                <div class = "block table">
+
+                </div>
+                <div class = "block table">
+
+                </div>
+                <div class="block table">
+
+                </div>
+                <div class="block table">
+
+                </div>
+                <div class = "block table">
+
+                </div>
+                <div class="block table">
+
+                </div>
+                <div class="block table">
+
+                </div>
+                <div class = "block table">
+
+                </div>
+                <div class="block table">
+
+                </div>
+                <div class="block table">
+
+                </div>
+                <div class = "block table">
+
+                </div>
+                <div class="block table">
+
+                </div>
+                <div class="block table">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="buttonMenu">
+            <button>Create table</button>
+            <button>Join by ID</button>
+        </div>
+    </main>
+</body>
+</html>

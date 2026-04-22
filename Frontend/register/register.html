@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="../js/header.js"></script>
+    <script src="../env.js"></script>
+    <script src="./js/register.js" defer></script>
+</head>
+<body>
+<header></header>
+<main>
+    <form method="POST" id="formRegistration">
+    <img src="/img/titleImage-removebg-preview.png" alt="">
+    <h1>Register</h1>
+        <div class="row">
+            <label for="user">Username: </label>
+            <input type="text" id="user" placeholder="Username" name="user" required/>
+        </div>
+
+        <div class="row">
+            <label for="email">E-mailadres: </label>
+            <input type="email" id="email" placeholder="@mail.com" required />
+        </div>
+
+        <div class="row">
+            <span><label for="password">Password: </label></span>
+            <span><input type="password" id="password" name="password" required/></span>
+        </div>
+
+        <div class="row">
+            <span><label for="confirmPassword">Confirm Password: </label></span>
+            <span><input type="password" id="confirmPassword" name="confirmPassword" required/></span>
+        </div>
+
+        <div class="row">
+            <span> <label for="birthDate">Select your birthdate:</label></span>
+            <span> <input type="date" id="birthDate" name="date" required></span>
+        </div>
+
+    <div id="errorMessage"></div>
+
+    <input type="submit" value="Register" name="submitButton" id="submitButton"/>
+        <p>Already have an account? Login <a href="../login/login.html">here</a></p>
+</form>
+</main>
+
+</body>
+</html>

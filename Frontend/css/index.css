@@ -1,0 +1,51 @@
+body {
+    background-image: url("../assests/images/Exploding_Kittens_Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 50px;
+}
+
+.game-logo {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.play-button {
+    margin-right: 20px;
+    width: 350px;
+    
+}
+
+.play-button:hover {
+    scale: 1.2;
+}
+
+
+.info-box {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: lightgrey;
+    color: #505050;
+    font-family: "Comic Sans MS", cursive;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.info-box h2 {
+    margin-top: 0;
+    color: maroon;
+}
+
+.info-box p {
+    font-size: 16px;
+}

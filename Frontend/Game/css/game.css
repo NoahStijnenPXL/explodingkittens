@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background-image: url("../../assests/images/Exploding_Kittens_Background.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.table {
+  width: 800px;
+  height: 500px;
+  background-image: url("../../assests/images/Exploding_Kittens_Table.png");
+  border-radius: 300px;
+  position: relative;
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.table img {
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+}
+
+
+.player {
+  position: absolute;
+  color: white;
+  padding: 8px 12px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+
+.top { top: 20px; left: 50%; transform: translateX(-50%); }
+.bottom { bottom: 20px; left: 50%; transform: translateX(-50%); }
+.left { left: 20px; top: 50%; transform: translateY(-50%); }
+.right { right: 20px; top: 50%; transform: translateY(-50%); }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.deck {
+  background: #333;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card {
+  width: 50px;
+  height: 70px;
+  background: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

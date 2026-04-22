@@ -1,0 +1,33 @@
+header .header-navbar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+    backdrop-filter: blur(6px);
+    z-index: 1000;
+}
+
+header .header-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #ff3c00, #a80000);
+    transition: 0.2s;
+}
+
+
+header .header-btn:hover {
+    transform: scale(1.2);
+}
+
+header .header-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

@@ -1,0 +1,114 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('/assests/images/Exploding_Kittens_Background.png');
+    color: white;
+    height: 100vh;
+}
+
+header {
+    background-color: transparent;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+    header h1 {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        color: white;
+    }
+
+.mission {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+    .mission h2 {
+        margin-bottom: 10px;
+    }
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.team-member {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    position: relative;
+    overflow: hidden;
+    color: #333; 
+}
+
+    .team-member:hover {
+        transform: translateY(-5px);
+    }
+
+    .team-member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .team-member h3 {
+        font-size: 1rem;
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #800000;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+}
+
+.team-member:hover .info {
+    transform: translateY(0);
+}
+
+footer {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.home-button {
+    
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #ff3c00, #a80000);
+    transition: 0.2s;
+}
+
+.home-button:hover {
+    transform: scale(1.3);
+}

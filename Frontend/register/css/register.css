@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body{
+    background-image: url("/assests/images/Exploding_Kittens_Background.png");
+}
+
+main{
+    width: 80%;
+    height: 150vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+img{
+    height: 40%;
+    width: auto;
+    margin-bottom: 5%;
+}
+
+form{
+    height: 40%;
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap: 4%;
+
+    box-shadow: 0 0 20px lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+div.row{
+    width: 100%;
+}
+
+form div.row input{
+    width: 100%;
+}
+
+/*div.row{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cyan;
+
+    width: 100%;
+}*/
+
+label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input[type="email"], input[type="password"]{
+    height: 70%;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 10%;
+
+    background-color: lightcoral;
+}
+
+input[type="submit"], input[type="email"], input[type="password"]{
+    border-radius: 10px;
+}
+
+#error{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+
+}

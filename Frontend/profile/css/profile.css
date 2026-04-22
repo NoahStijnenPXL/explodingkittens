@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("../../assests/images/Exploding_Kittens_Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    color: maroon;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.home-button:hover {
+    background-color: #ddd;
+}
+
+.profile-container {
+    margin-top: 25px;
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+}
+
+.profile-container h2 {
+    margin-bottom: 25px;
+    color: maroon;
+}
+.profile-field {
+    background: #e3e3e3;
+    color: black;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.profile-field label {
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+    color: grey;
+}
+
+.profile-field span {
+    font-size: 16px;
+}
+
+.logout-button {
+    background-color: white;
+    color: maroon;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #ddd;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("/assests/images/Exploding_Kittens_Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.2);
+
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+
+    border-radius: 16px;
+    border: solid grey 1px;
+}
+
+.preferences{
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 2px;
+    border-bottom: solid grey 1px;
+}
+
+.preferencesContainer{
+    text-align: left;
+    width: 250px;
+
+}
+
+
+.preferences .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tables{
+    height: 90%;
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: left;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    
+}
+
+.block{
+    width: 20%;
+    height: 30%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    padding: 1%;
+    
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
+.buttonMenu{
+    margin-top: 5px;
+}
